@@ -1,14 +1,24 @@
 {
     "name": "sofiakb/lumen-logging",
     "description": "A lumen logging config file",
-    "homepage": "http://github.com/sowsouf/lumen-logging",
+    "homepage": "http://github.com/sofiakb/lumen-logging",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Sofiakb",
-            "email": "contact.sofiakb@gmail.com"
+            "email": "contact.sofiakb@gmail.com",
+            "homepage": "https://sofianeakbly.fr",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "contact.sofiakb@gmail.com"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
     "require": {
         "php": "^7.4|^8.0"
     },
@@ -20,11 +30,6 @@
             "Sofiakb\\Lumen\\Logging\\": "src/"
         }
     },
-    "version": "dev-main",
-    "time": "2021-09-23",
-    "scripts": {
-        "post-install-cmd": [
-            "src/scripts/post-install.sh"
-        ]
-    }
+    "version": "v0.0.1",
+    "time": "2021-09-23"
 }
