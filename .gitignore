@@ -1,0 +1,5 @@
+.phpintel
+.DS_Store
+.idea/
+src/.DS_Store
+vendor
