@@ -1,28 +1,30 @@
 {
-    "name": "sofiakb/lumen-logging",
-    "description": "A lumen logging config file",
-    "homepage": "http://github.com/sowsouf/lumen-logging",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sofiakb",
-            "email": "contact.sofiakb@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0"
-    },
-    "require-dev": {
-        "laravel/lumen-framework": "7.*|8.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sofiakb\\Lumen\\Logging\\": "src/"
-        }
-    },
-    "version": "dev-main",
-    "time": "2021-09-23",
-    "scripts": {
-        "post-install-cmd": []
+  "name"       : "sofiakb/lumen-logging",
+  "description": "A lumen logging config file",
+  "homepage"   : "http://github.com/sowsouf/lumen-logging",
+  "license"    : "MIT",
+  "authors"    : [
+    {
+      "name" : "Sofiakb",
+      "email": "contact.sofiakb@gmail.com"
     }
+  ],
+  "require"    : {
+    "php": "^7.4|^8.0"
+  },
+  "require-dev": {
+    "laravel/lumen-framework": "7.*|8.*"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "Sofiakb\\Lumen\\Logging\\": "src/"
+    }
+  },
+  "version"    : "dev-main",
+  "time"       : "2021-09-23",
+  "scripts"    : {
+    "post-install-cmd": [
+      "src/scripts/post-install.sh"
+    ]
+  }
 }
